@@ -1,0 +1,8 @@
+<div class="log-wrapper">
+	<h2>Ads</h2>
+	<input ngModel="" (ngModelChange)="startChange.emit($event)" placeholder="start">
+	<input ngModel="" (ngModelChange)="endChange.emit($event)" placeholder="end" class="end-input">
+	<div class="ad-log-list">
+		<app-ad-log-item *ngFor="let ad of ads" [ad]="ad"></app-ad-log-item>
+	</div>
+</div>

@@ -1,0 +1,9 @@
+.ad-wrapper {
+	position: absolute;
+	img, video {
+		max-height: 100px;
+		max-width: 200px;
+		border: 5px white solid;
+		box-shadow: 1px 1px 5px black;
+	}
+}

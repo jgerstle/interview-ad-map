@@ -1,0 +1,6 @@
+<div class="wrapper">
+	<div>{{ad.created | date: 'HH:mm:ss'}}</div>
+	<div><fa-icon [icon]="ad.type === 'IMAGE' ? 'image' : 'video'"></fa-icon></div>
+	<div>{{ad.creative.name}}</div>
+	<a [href]="ad.creative.url" target="_blank" class="link"><fa-icon icon="link"></fa-icon></a>
+</div>

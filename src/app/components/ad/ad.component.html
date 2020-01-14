@@ -1,0 +1,6 @@
+<div class="ad-wrapper" [style.top]="ad.coordinates.y + 'px'" [style.left]="ad.coordinates.x + 'px'">
+	<img [src]="ad.creative.url" *ngIf="ad.type === 'IMAGE'">
+	<video controls autoplay *ngIf="ad.type === 'VIDEO'" #video>
+		<source [src]="ad.creative.url" type="video/mp4">
+	</video>
+</div>

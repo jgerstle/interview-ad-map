@@ -1,0 +1,10 @@
+.wrapper {
+	max-height: 100vh;
+	overflow: auto;
+	.map {
+		background-image: url('/assets/img/got-map.png');
+		width: 1280px;
+		height: 1877px;
+		position: relative;
+	}
+}

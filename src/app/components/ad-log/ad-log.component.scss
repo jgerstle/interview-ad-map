@@ -1,0 +1,9 @@
+.log-wrapper {
+	--wrapper-padding: 10px;
+	height: calc(100vh - var(--wrapper-padding) * 2);
+	width: calc(400px - var(--wrapper-padding) * 2);;
+	padding: var(--wrapper-padding);
+	.end-input {
+		margin-left: 5px;
+	}
+}
